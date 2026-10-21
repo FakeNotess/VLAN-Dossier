@@ -61,3 +61,4 @@ Challenge 2: Firewall Rule Precedence
  Description: Initial firewall drop rules accidentally blocked gateway DNS for the trusted network.
 
  Solution: adjusted the rule order in the firewall to ensure established sessions and important local services (DNS, etc.) had higher priority than inter-VLAN blocking rules.
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/90bd8ded-a795-4752-af01-2baa6b9a9d91" />
